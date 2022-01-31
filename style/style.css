@@ -41,8 +41,9 @@ body{
      background-color: var(--azulOscuro);
      width: 80%;
      height: 50px;
-     border-radius: 10px;
+     border-radius: 20px;
      cursor: pointer;
+    
 }
 
 .botonSecundario{
@@ -52,7 +53,7 @@ body{
     width: 80%;
     height: 50px;
     border:2px solid var(--azulOscuro);
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     
 }
@@ -104,6 +105,7 @@ button:hover{
 
 .botonJugar{
     height: 80px;
+    width: 100%;
 
 }
 
@@ -145,3 +147,21 @@ button:hover{
 
 }
 
+
+/*PAGINA JUEGO*/
+
+.contenidoMain{
+    height: 50vh;
+
+}
+
+.centrarNuevos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.boton2{
+    width: 100%;
+    margin: 0 auto;
+}
