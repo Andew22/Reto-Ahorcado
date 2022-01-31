@@ -62,7 +62,7 @@ button:hover{
 
 .textArea{
     width: 100%;
-    height: 100%;
+    height: 10vh;
     background-color: var(--fondo);
     border: none;
 
@@ -91,7 +91,6 @@ button:hover{
     height: 100%;
  
     margin: 0 auto;
-  
 }
 
 /*BOTONES*/
@@ -113,4 +112,36 @@ button:hover{
     width: 70%;
 }
 
+
+
+/*PAGINA NUEVA PALABRA*/
+
+.header__nuevaPalabra{
+    width: 90%;
+    height: 20%;
+}
+
+.textAreaPalabra{
+    height: 50vh;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.botonNuevo{
+    width: 100%;
+
+
+}
+
+.mensajeNuevo{
+    text-align: left;
+    font-size: 1.2rem;
+ 
+
+}
 
