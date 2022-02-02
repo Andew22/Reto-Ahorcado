@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahorcado</title>
    <link rel="stylesheet" href="style/style.css">
+   <link rel="stylesheet" href="style/tablet.css">
+   <link rel="stylesheet" href="style/pc.css">
 </head>
 
 <body class="contenedor">
@@ -21,20 +23,19 @@
 
 
     <main class="principal__NuevaPalabra">
-        <textarea class="textArea textAreaPalabra" placeholder="Ingrese Texto Aqui"></textarea>
+        <textarea id="textPalabra" class="textArea textAreaPalabra" placeholder="Ingrese Texto Aqui"></textarea>
    
     </main>
     <i class="fas fa-info-circle"></i>
     <span class="mensajeNuevo">Max. de 8 caracteres</span>
     <footer class="botones">
        
-
-        <button class="botonPrimario botonNuevo ">Guardar y empezar</button>
        
-        <button class="botonSecundario  botonNuevo">Cancelar</button>
+        <button onClick="window.location = './juego.html';" id="botonCrear" class="botonPrimario botonNuevo ">Guardar y empezar</button>
+        
+        <button onClick="window.location = './index.html';" class="botonSecundario  botonNuevo">Cancelar</button>
 
     </footer>
-
 
    </div>
 
@@ -46,5 +47,6 @@
 </body>
 
 <script src="https://kit.fontawesome.com/d4cd33a1a3.js" crossorigin="anonymous"></script>
+<script src="crearPalabra.js"></script>
 
 </html>

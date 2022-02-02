@@ -1,0 +1,16 @@
+
+@media (min-width: 767px){
+    .botones{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .botonPrimario{
+        font-size: 2.6rem;
+    }
+
+    .botonSecundario{
+        font-size: 2.6rem;
+    }
+    
+}

@@ -43,6 +43,7 @@ body{
      height: 50px;
      border-radius: 20px;
      cursor: pointer;
+     font-size: 1.8rem;
     
 }
 
@@ -55,6 +56,18 @@ body{
     border:2px solid var(--azulOscuro);
     border-radius: 20px;
     cursor: pointer;
+    font-size: 1.8rem;
+    
+}
+
+.botonSecundario1{
+
+    color:var(--azulOscuro);
+    background-color: var(--blanco);
+    width: 80%;
+    height: 50px;
+    border:none;
+    cursor: pointer;
     
 }
 button:hover{
@@ -66,6 +79,7 @@ button:hover{
     height: 10vh;
     background-color: var(--fondo);
     border: none;
+    font-size: 1.8rem;
 
 }
 
@@ -152,6 +166,7 @@ button:hover{
 
 .contenidoMain{
     height: 50vh;
+ 
 
 }
 
@@ -164,4 +179,32 @@ button:hover{
 .boton2{
     width: 100%;
     margin: 0 auto;
+}
+
+
+
+.estilosGuion{
+    border:none;
+    border-bottom:5px solid var(--azulOscuro);
+    background-color: var(--fondo);
+    width:30px;
+    margin-right: 20px;
+    font-size: 2.6rem;
+    margin-bottom:20px;
+    margin-top:30px;
+}
+
+.letra{
+    margin-right: 20px;
+}
+
+#dibujarCanvas{
+
+}
+
+
+
+.contenidoMain{
+    display: grid;
+    place-content: center;
 }
